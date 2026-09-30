@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 480" width="400" height="480">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#222226"/>
+      <stop offset="100%" stop-color="#111113"/>
+    </linearGradient>
+    <linearGradient id="headGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#333338"/>
+      <stop offset="100%" stop-color="#1a1a1e"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 1. STATIONARY BODY & SHOULDERS -->
+  <path d="M 60 480 C 72 345, 128 316, 200 316 C 272 316, 328 345, 340 480 Z" fill="url(#bgGrad)" stroke="rgba(200, 169, 126, 0.3)" stroke-width="1.5" />
+  <path d="M 165 321 L 200 364 L 235 321" fill="none" stroke="rgba(200, 169, 126, 0.5)" stroke-width="2" />
+
+  <!-- 2. NECK -->
+  <rect x="176" y="260" width="48" height="72" fill="#1e1e22" />
+
+  <!-- 3. HEAD (Shifted by directional angle frame) -->
+  <rect x="137.67878402655563" y="131.467156727579" width="130" height="170" rx="48" fill="url(#headGrad)" stroke="rgba(200, 169, 126, 0.4)" stroke-width="1.5" />
+  
+  <!-- Hair line -->
+  <path d="M 134.67878402655563 161.467156727579 A 68 68 0 0 1 270.6787840265556 161.467156727579 Z" fill="#161619" />
+
+  <!-- Glasses frame hint -->
+  <line x1="142.67878402655563" y1="221.467156727579" x2="262.6787840265556" y2="221.467156727579" stroke="rgba(200, 169, 126, 0.3)" stroke-width="1.5" />
+
+  <!-- Nose hint -->
+  <path d="M 202.67878402655563 236.467156727579 L 202.67878402655563 261.467156727579 L 212.67878402655563 261.467156727579" fill="none" stroke="#666" stroke-width="2" />
+
+  <!-- Mouth hint (neutral) -->
+  <line x1="187.67878402655563" y1="281.467156727579" x2="217.67878402655563" y2="281.467156727579" stroke="#555" stroke-width="2.5" />
+
+  <!-- 4. EYES & PUPILS (Offset for directional gaze) -->
+  <circle cx="172.67878402655563" cy="211.467156727579" r="13" fill="#e5e5e5" stroke="rgba(200, 169, 126, 0.5)" stroke-width="1" />
+  <circle cx="232.67878402655563" cy="211.467156727579" r="13" fill="#e5e5e5" stroke="rgba(200, 169, 126, 0.5)" stroke-width="1" />
+
+  <circle cx="176.12293491784143" cy="219.78207252018058" r="6" fill="#0a0a0b" />
+  <circle cx="236.12293491784143" cy="219.78207252018058" r="6" fill="#0a0a0b" />
+
+  <!-- Catchlight highlights -->
+  <circle cx="174.12293491784143" cy="217.78207252018058" r="2" fill="#ffffff" />
+  <circle cx="234.12293491784143" cy="217.78207252018058" r="2" fill="#ffffff" />
+</svg>
